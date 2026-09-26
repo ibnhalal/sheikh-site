@@ -68,7 +68,7 @@ export default function SingleLesson({ book, lessonIdParam, basePath, indexLabel
             boxShadow: "var(--shadow)",
           }}
         >
-         <audio controls autoPlay preload="metadata" className="w-full">
+         <audio controls  preload="metadata" className="w-full">
   <source src={lesson.src} type="audio/mpeg" />
   متصفحك لا يدعم تشغيل الصوتيات.
             </audio>
