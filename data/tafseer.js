@@ -35,10 +35,7 @@ export const tafseerBooks = [
     },
     total: 11,
     pdfUrl: "/pdf/tafseer-osoul.pdf",
-    buildUrl: (i) =>
-      `https://archive.org/download/osoul-1_202604_202605/${encodeURIComponent(
-        `osoul-1 (${i}).mp3`
-      )}`,
+    buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/${i}.mp3`,
   },
   {
     slug: "qawaid",
