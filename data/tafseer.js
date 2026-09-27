@@ -68,7 +68,7 @@ export const tafseerBooks = [
     pdfUrl: "/pdf/tafseer-qawaid.pdf",
       buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Qawaid/${encodeURIComponent(
     `${i}-القواعد الحسان (2).mp3`
-  )}`,
+  )}
   },
   {
     slug: "muqedima",
