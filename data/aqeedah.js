@@ -231,7 +231,7 @@ export const aqeedahBooks = [
       en: "Audio lectures explaining Fath Al-Majeed Sharh Kitab At-Tawheed by Sheikh Mohammed Zayn.",
       am: "በሼክ ሙሐመድ ዘይን በድምፅ የተሰጡ የፈትሁል መጂድ ኪታብ አት-ተውሒድ ማብራሪያ ትምህርቶች",
     },
-    total: 110,
+    total: 198,
     buildUrl: (i) =>
       `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Feth/K${i}.mp3`,
   },
