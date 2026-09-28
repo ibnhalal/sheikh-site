@@ -227,6 +227,38 @@ export const aqeedahBooks = [
     en: "By Sheikh Abd al-Rahman ibn Hasan - Lectures by Sheikh Mohammed Zayn",
     am: "በሼክ አብዱረህማን ኢብን ሀሰን የተፃፈ - በሼክ ሙሐመድ ዘይን የተሰጡ ትምህርቶች",
   },
+
+{
+    slug: "ubudiya",
+    title: {
+      ar: "العبودية",
+      en: "Al-Ubudiyyah",
+      am: "አል-ዑቡዲያ",
+    },
+    author: {
+      ar: "شيخ الإسلام ابن تيمية",
+      en: "Ibn Taymiyyah",
+      am: "ኢብኑ ተይሚያ",
+    },
+    fullTitle: {
+      ar: "شرح كتاب العبودية",
+      en: "Explanation of Al-Ubudiyyah",
+      am: "የአል-ዑቡዲያ ማብራሪያ",
+    },
+    authorSub: {
+      ar: "تأليف شيخ الإسلام ابن تيمية رحمه الله - شروحات فضيلة الشيخ محمد زين",
+      en: "By Shaykh al-Islam Ibn Taymiyyah - Lectures by Sheikh Mohammed Zayn",
+      am: "በሸይኽ ኢብኑ ተይሚያ - በሸይኽ መሐመድ ዘይን የተሰጠ ትምህርት",
+    },
+    footerDesc: {
+      ar: "شروحات كتاب العبودية لشيخ الإسلام ابن تيمية لفضيلة الشيخ محمد زين بن آدم بصيغ مسموعة ومباشرة.",
+      en: "Audio lectures explaining Al-Ubudiyyah by Sheikh Mohammed Zayn.",
+      am: "በሸይኽ መሐመድ ዘይን የተሰጡ የአል-ዑቡዲያ ትምህርቶች በድምጽ።",
+    },
+    total: 30,
+    buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Ubudiya/J${i}.mp3`,
+  },
+
   footerDesc: {
     ar: "شروحات كتاب فتح المجيد شرح كتاب التوحيد لفضيلة الشيخ محمد زين بن آدم بصيغة مسموعة ومباشرة",
     en: "Audio lectures explaining Fath Al-Majeed Sharh Kitab At-Tawheed by Sheikh Mohammed Zayn.",
