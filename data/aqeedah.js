@@ -201,9 +201,10 @@ export const aqeedahBooks = [
     },
     total: 7,
    // pdfUrl: "/pdf/aqeedah-ahbash.pdf", // ⚠️ معطّل مؤقتاً: الملف غير موجود في public/pdf — ارفعه ثم أزل التعليق (//) عن هذا السطر
-  buildUrl: (i) =>
-    `https://archive.org/download/ahbash-1/${encodeURIComponent(`ahbash (${i}).mp3`)}`,
-},
+  total: 7,
+    buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Ahbash/H${i}.mp3`,
+  },
 {
     slug: "fath-al-majeed",
     title: {
