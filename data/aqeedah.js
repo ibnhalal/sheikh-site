@@ -204,41 +204,37 @@ export const aqeedahBooks = [
   buildUrl: (i) =>
     `https://archive.org/download/ahbash-1/${encodeURIComponent(`ahbash (${i}).mp3`)}`,
 },
-
 {
-  slug: "fath-al-majeed",
-  title: {
-    ar: "فتح المجيد شرح كتاب التوحيد",
-    en: "Fath Al-Majeed Sharh Kitab At-Tawheed",
-    am: "ፈትሁል መጂድ የኪታብ አት-ተውሒድ ማብራሪያ",
-  },
-  author: { 
-    ar: "الشيخ عبد الرحمن بن حسن آل الشيخ", 
-    en: "Sheikh Abd al-Rahman ibn Hasan Al ash-Sheikh", 
-    am: "ሼክ አብዱረህማን እብን ሀሰን አል ሼክ" 
-  },
-  fullTitle: {
-    ar: "شرح فتح المجيد شرح كتاب التوحيد",
-    en: "Explanation of Fath Al-Majeed Sharh Kitab At-Tawheed",
-    am: "የፈትሁል መጂድ የኪታብ አት-ተውሒድ ማብራሪያ",
-  },
-  authorSub: {
-    ar: "شروحات فضيلة الشيخ محمد زين - تأليف الشيخ عبد الرحمن بن حسن آل الشيخ",
-    en: "By Sheikh Abd al-Rahman ibn Hasan - Lectures by Sheikh Mohammed Zayn",
-    am: "በሼክ አብዱረህማን ኢብን ሀሰን የተፃፈ - በሼክ ሙሐመድ ዘይን የተሰጡ ትምህርቶች",
-  },
+    slug: "fath-al-majeed",
+    title: {
+      ar: "فتح المجيد شرح كتاب التوحيد",
+      en: "Fath Al-Majeed Sharh Kitab At-Tawheed",
+      am: "ፈትሁል መጂድ የኪታብ አት-ተውሒድ ማብራሪያ",
+    },
+    author: {
+      ar: "الشيخ عبد الرحمن بن حسن آل الشيخ",
+      en: "Sheikh Abd al-Rahman ibn Hasan Al ash-Sheikh",
+      am: "ሼክ አብዱረህማን እብን ሀሰን አል ሼክ",
+    },
+    fullTitle: {
+      ar: "شرح فتح المجيد شرح كتاب التوحيد",
+      en: "Explanation of Fath Al-Majeed Sharh Kitab At-Tawheed",
+      am: "የፈትሁል መጂድ የኪታብ አት-ተውሒድ ማብራሪያ",
+    },
+    authorSub: {
+      ar: "شروحات فضيلة الشيخ محمد زين - تأليف الشيخ عبد الرحمن بن حسن آل الشيخ",
+      en: "By Sheikh Abd al-Rahman ibn Hasan - Lectures by Sheikh Mohammed Zayn",
+      am: "በሼክ አብዱረህማን ኢብን ሀሰን የተፃፈ - በሼክ ሙሐመድ ዘይን የተሰጡ ትምህርቶች",
+    },
+    footerDesc: {
+      ar: "شروحات كتاب فتح المجيد شرح كتاب التوحيد لفضيلة الشيخ محمد زين بن آدم بصيغة مسموعة ومباشرة",
+      en: "Audio lectures explaining Fath Al-Majeed Sharh Kitab At-Tawheed by Sheikh Mohammed Zayn.",
+      am: "በሼክ ሙሐመድ ዘይን በድምፅ የተሰጡ የፈትሁል መጂድ ኪታብ አት-ተውሒድ ማብራሪያ ትምህርቶች",
+    },
     total: 110,
-    buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Feth/K${i}.mp3`,
-},
-  footerDesc: {
-    ar: "شروحات كتاب فتح المجيد شرح كتاب التوحيد لفضيلة الشيخ محمد زين بن آدم بصيغة مسموعة ومباشرة",
-    en: "Audio lectures explaining Fath Al-Majeed Sharh Kitab At-Tawheed by Sheikh Mohammed Zayn.",
-    am: "በሼክ ሙሐመድ ዘይን በድምፅ የተሰጡ የፈትሁል መጂድ ኪታብ አት-ተውሒድ ማብራሪያ ትምህርቶች",
+    buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Feth/K${i}.mp3`,
   },
-},
-
-
-
 ];
 
 export function getAqeedahBook(slug) {
