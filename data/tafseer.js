@@ -95,12 +95,9 @@ export const tafseerBooks = [
       en: "Audio lectures explaining the Introduction to Tafsir by Sheikh Mohammed Zayn.",
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ የተፍሲር መግቢያ ትምህርቶች በድምጽ።",
     },
-    total: 44,
+    total: 43,
     pdfUrl: "/pdf/tafseer-muqedima.pdf",
-    buildUrl: (i) =>
-      `https://archive.org/download/muqedima-32/${encodeURIComponent(
-        `muqedima (${i}).mp3`
-      )}`,
+    buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Tafsir/B${i}.mp3`,
   },
 ];
 
