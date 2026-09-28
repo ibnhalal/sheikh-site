@@ -227,7 +227,7 @@ export const aqeedahBooks = [
     en: "By Sheikh Abd al-Rahman ibn Hasan - Lectures by Sheikh Mohammed Zayn",
     am: "በሼክ አብዱረህማን ኢብን ሀሰን የተፃፈ - በሼክ ሙሐመድ ዘይን የተሰጡ ትምህርቶች",
   },
- total: 110,
+    total: 110,
     buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Feth/K${i}.mp3`,
 },
 
