@@ -68,22 +68,10 @@ export const aqeedahBooks = [
       en: "Audio lectures explaining The Three Fundamental Principles by Sheikh Mohammed Zayn.",
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
     },
-    total: 7,
+        total: 7,
     pdfUrl: "/pdf/aqeedah-osoul1.pdf",
-    files: [
-      "_Thalathat_Al_Usool (1).mp3",
-      "_Thalathat_Al_Usool (2).mp3",
-      "_Thalathat_Al_Usool (3).mp3",
-      "_Thalathat_Al_Usool (4).mp3",
-      "_Thalathat_Al_Usool (5).mp3",
-      "_Thalathat_Al_Usool (6).mp3",
-      "_Thalathat_Al_Usool (7).mp3",
-    ],
-    buildUrlFromFile: (fileName) =>
-      `https://archive.org/download/thalathat-al-usool-7/${encodeURIComponent(
-        fileName
-      )}`,
-    numbering: "padded2",
+    buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Aselasa/D${i}.mp3`,
   },
   {
     slug: "osoul2",
