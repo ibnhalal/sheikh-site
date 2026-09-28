@@ -92,13 +92,10 @@ export const aqeedahBooks = [
       en: "Audio lectures explaining Usool As-Sunnah by Sheikh Mohammed Zayn.",
       am: "በሸይኽ ሙሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
     },
-    total: 4,
+      total: 4,
     pdfUrl: "/pdf/aqeedah-osoul2.pdf",
     buildUrl: (i) =>
-      `https://archive.org/download/osool-sunnah-1/${encodeURIComponent(
-        `osool_sunnah_ (${i}).mp3`
-      )}`,
-    numbering: "padded2",
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Assuna/F${i}.mp3`,
   },
   {
     slug: "shubuhat",
