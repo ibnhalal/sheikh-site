@@ -142,17 +142,9 @@ export const aqeedahBooks = [
     },
     // pdfUrl: "/pdf/aqeedah-jahiliya.pdf", // ⚠️ معطّل مؤقتاً: الملف غير موجود في public/pdf — ارفعه ثم أزل التعليق (//) عن هذا السطر
     total: 70,
-
-  buildUrl: (i) => {
-    const padded = String(i).padStart(2, "0");
-
-    return `https://archive.org/download/50_20260802/${encodeURIComponent(
-      `${padded} - شرح مسائل الجاهلية.mp3`
-    )}`;
+    buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Jahiliya/G${i}.mp3`,
   },
-
-  numbering: "padded2",
-},
   {
     slug: "tahawiya",
     title: { ar: "شرح العقيدة الطحاوية", en: "Al-Aqida al-Tahawiyya", am: "አል-ጣሃዊያ" },
