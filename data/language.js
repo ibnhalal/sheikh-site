@@ -52,15 +52,9 @@ export const languageBooks = [
     author: { ar: "ابن آجروم الصنهاجي", en: "Ibn Ajrum", am: "ኢብኑ አጅሩም" },
     pdfUrl: "/pdf/language-ajrumiya.pdf",
     total: 24,
-
-  buildUrl: (i) => {
-    const padded = String(i).padStart(2, "0");
-
-    return `https://archive.org/download/01_20260918_202609/${encodeURIComponent(
-      `${padded} متن الآجرومية.mp3`
-    )}`;
+    buildUrl: (i) =>
+      https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Ajrum/M${i}.mp3,
   },
-},
 ].map((b) => ({
   ...b,
   buildUrl: b.buildUrl || ((i) => buildUrl(b.slug, i)),
