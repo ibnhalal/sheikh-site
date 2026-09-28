@@ -118,13 +118,8 @@ export const aqeedahBooks = [
     },
     total: 21,
     pdfUrl: "/pdf/aqeedah-shubuhat.pdf",
-    buildUrl: (i) => {
-      const padded = String(i).padStart(2, "0");
-      return `https://archive.org/download/17_20260623/${encodeURIComponent(
-        `${padded} - شرح كشف الشبهات.mp3`
-      )}`;
-    },
-    numbering: "padded2",
+    buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Kesfe/E${i}.mp3`,
   },
   {
     slug: "jahiliya",
