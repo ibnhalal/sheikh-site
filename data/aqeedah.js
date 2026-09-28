@@ -177,7 +177,7 @@ export const aqeedahBooks = [
     slug: "tahawiya",
     title: { ar: "شرح العقيدة الطحاوية", en: "Al-Aqida al-Tahawiyya", am: "አል-ጣሃዊያ" },
     author: { ar: "الإمام الطحاوي", en: "Imam al-Tahawi", am: "ኢማም አል-ጣሃዊ" },
-    total: 170,
+    total: 119,
     buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Tehawiya/I${i}.mp3`,
   },
   {
