@@ -30,15 +30,9 @@ export const aqeedahBooks = [
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
     },
     total: 7,
-    telegram: "https://t.me/SheikhMuhammedZain/762",
     pdfUrl: "/pdf/aqeedah-droos.pdf",
-    buildUrl: (i) => {
-      const padded = String(i).padStart(2, "0");
-      return `https://archive.org/download/06_20260607/${encodeURIComponent(
-        `${padded} - الدروس المهمة.mp3`
-      )}`;
-    },
-    numbering: "padded2",
+    buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Osoul/C${i}.mp3`,
   },
 
   {
