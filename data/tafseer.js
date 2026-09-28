@@ -64,8 +64,6 @@ export const tafseerBooks = [
       en: "Audio lectures explaining Al-Qawa'id al-Hisan by Sheikh Mohammed Zayn.",
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ የአል-ቀዋኢድ አል-ሂሳን ትምህርቶች በድምጽ።",
     },
-    total: 53,
-    pdfUrl: "/pdf/tafseer-qawaid.pdf",
       total: 53,
     pdfUrl: "/pdf/tafseer-qawaid.pdf",
     buildUrl: (i) => `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Qawaid/A${i}.mp3`,
