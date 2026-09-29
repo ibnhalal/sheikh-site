@@ -30,7 +30,6 @@ export const hadithBooks = [
     author: { ar: "الشيخ ابن عثيمين", en: "Sheikh Ibn Uthaymeen", am: "ሸይኽ ኢብኑ ኡሰይሚን" },
      pdfUrl: "/pdf/hadith.mustalah.pdf",
     total: 15,
-buildUrl: (i) =>
   buildUrl: (i) =>
   `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Mistelah/L${i}.mp3`,
 },
