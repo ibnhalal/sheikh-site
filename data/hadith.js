@@ -24,7 +24,7 @@ export const hadithBooks = [
     author: { ar: "الحافظ ابن حجر العسقلاني", en: "Ibn Hajar al-Asqalani", am: "ኢብኑ ሀጀር" },
     total: 292,
   },
-  
+  {
     slug: "mustalah",
     title: { ar: "مصطلح الحديث", en: "Hadith Terminology", am: "ሙስጣለሃል ሀዲስ" },
     author: { ar: "الشيخ ابن عثيمين", en: "Sheikh Ibn Uthaymeen", am: "ሸይኽ ኢብኑ ኡሰይሚን" },
