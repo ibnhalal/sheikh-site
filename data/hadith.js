@@ -31,10 +31,9 @@ export const hadithBooks = [
      pdfUrl: "/pdf/hadith.mustalah.pdf",
     total: 15,
 buildUrl: (i) =>
-  https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Mistelah/L${i}.mp3,
-     
-  },
-  
+  buildUrl: (i) =>
+  `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Mistelah/L${i}.mp3`,
+},
 ].map((b) => ({ ...b, buildUrl: b.buildUrl || ((i) => buildUrl(b.slug, i)) }));
 export function getHadithBook(slug) {
   return hadithBooks.find((b) => b.slug === slug);
