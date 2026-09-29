@@ -24,25 +24,7 @@ export const hadithBooks = [
     author: { ar: "الحافظ ابن حجر العسقلاني", en: "Ibn Hajar al-Asqalani", am: "ኢብኑ ሀጀር" },
     total: 292,
   },
-  {
-    slug: "muslim",
-    title: { ar: "صحيح مسلم", en: "Sahih Muslim", am: "ሶሒህ ሙስሊም" },
-    author: { ar: "الإمام مسلم بن الحجاج", en: "Imam Muslim", am: "ኢማም ሙስሊም" },
-    total: 225,
-  },
-  {
-    slug: "tirmidhi",
-    title: { ar: "جامع الترمذي", en: "Jami' al-Tirmidhi", am: "ጃሚዕ አት-ቲርሚዚ" },
-    author: { ar: "الإمام الترمذي", en: "Imam al-Tirmidhi", am: "ኢማም አት-ቲርሚዚ" },
-    total: 97,
-  },
-  {
-    slug: "bukhari",
-    title: { ar: "صحيح البخاري", en: "Sahih al-Bukhari", am: "ሶሒህ አል-ቡኻሪ" },
-    author: { ar: "الإمام البخاري", en: "Imam al-Bukhari", am: "ኢማም አል-ቡኻሪ" },
-    total: 74,
-  },
-  {
+  
     slug: "mustalah",
     title: { ar: "مصطلح الحديث", en: "Hadith Terminology", am: "ሙስጣለሃል ሀዲስ" },
     author: { ar: "الشيخ ابن عثيمين", en: "Sheikh Ibn Uthaymeen", am: "ሸይኽ ኢብኑ ኡሰይሚን" },
