@@ -76,49 +76,8 @@ export const seerahBooks = [
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
     },
     total: 118,
-    // pdfUrl: "/pdf/seerah-daaim.pdf", // ⚠️ معطّل مؤقتاً: الملف غير موجود في public/pdf
-    numbering: "padded2",
-    // ⚠️ عدّل هذا الرابط بنفس الطريقة
     buildUrl: (i) =>
-      `https://archive.org/download/REPLACE_WITH_YOUR_ITEM_ID/${encodeURIComponent(
-        `${String(i).padStart(2, "0")} دعائم منهاج النبوة.mp3`
-      )}`,
-  },
-  {
-    slug: "noor",
-    title: {
-      ar: "خلاصة نور اليقين",
-      en: "Khulasat Nur al-Yaqeen",
-      am: "ኹላሳት ኑር አል-የቂን",
-    },
-    author: {
-      ar: "عمر عبد الجبار",
-      en: "Umar Abdul Jabbar",
-      am: "ዑመር አብዱልጀባር",
-    },
-    fullTitle: {
-      ar: "شرح خلاصة نور اليقين",
-      en: "Explanation of Khulasat Nur al-Yaqeen",
-      am: "የኹላሳት ኑር አል-የቂን ማብራሪያ",
-    },
-    authorSub: {
-      ar: "تأليف الشيخ عمر عبد الجبار - شروحات فضيلة الشيخ محمد زين",
-      en: "By Sheikh Umar Abdul Jabbar - Lectures by Sheikh Mohammed Zayn",
-      am: "በሸይኽ ዑመር አብዱልጀባር - በሸይኽ መሐመድ ዘይን የተሰጠ ትምህርት",
-    },
-    footerDesc: {
-      ar: "شروحات كتاب خلاصة نور اليقين في السيرة النبوية لفضيلة الشيخ محمد زين بن آدم بصيغ مسموعة ومباشرة.",
-      en: "Audio lectures explaining Khulasat Nur al-Yaqeen by Sheikh Mohammed Zayn.",
-      am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
-    },
-    total: 46,
-    // pdfUrl: "/pdf/seerah-noor.pdf", // ⚠️ معطّل مؤقتاً: الملف غير موجود في public/pdf
-    numbering: "padded2",
-    // ⚠️ عدّل هذا الرابط بنفس الطريقة
-    buildUrl: (i) =>
-      `https://archive.org/download/REPLACE_WITH_YOUR_ITEM_ID/${encodeURIComponent(
-        `${String(i).padStart(2, "0")} خلاصة نور اليقين.mp3`
-      )}`,
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Deaem/T${i}.mp3`,
   },
 ];
 
