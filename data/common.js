@@ -21,7 +21,7 @@ export const common = {
     home: "Home",
     backHome: "Back to Home",
     rights: "All Rights Reserved",
-    rightsFull: "All Rights Reserved © 2026 | Scientific Platform of Sheikh Mohammed Zayn bin Adam",
+    rightsFull: "All Rights Reserved © 2026 | Scientific Platform of Sheikh Muhammedzain Adam",
     tgTitle: "Official Lessons Channel",
     tgSub: "Official source for audio lessons",
     tgJoin: "Join",
@@ -39,7 +39,7 @@ export const common = {
     home: "ዋና ገጽ",
     backHome: "ወደ ዋና ገጽ ተመለስ",
     rights: "መብቱ በህግ የተጠበቀ ነው",
-    rightsFull: "መብቱ በህግ የተጠበቀ ነው © 2026 | የሸይኽ መሐመድ ዘይን ቢን አደም መድረክ",
+    rightsFull: "መብቱ በህግ የተጠበቀ ነው © 2026 | የሸይኽ ሙሀመድዘይን
     tgTitle: "ይፋዊ የትምህርት ቻናል",
     tgSub: "የድምጽ ትምህርቶች ይፋዊ ምንጭ",
     tgJoin: "ይቀላቀሉ",
