@@ -29,12 +29,10 @@ export const hadithBooks = [
     title: { ar: "مصطلح الحديث", en: "Hadith Terminology", am: "ሙስጣለሃል ሀዲስ" },
     author: { ar: "الشيخ ابن عثيمين", en: "Sheikh Ibn Uthaymeen", am: "ሸይኽ ኢብኑ ኡሰይሚን" },
      pdfUrl: "/pdf/hadith.mustalah.pdf",
-    total: 17,
-
-     buildUrl: (i) =>
-    `https://archive.org/download/15_20260918_202609/${encodeURIComponent(
-      `${String(i).padStart(2, "0")} مصطلح الحديث لابن عثيمين.mp3`
-    )}`,
+    total: 15,
+buildUrl: (i) =>
+  https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Mistelah/L${i}.mp3,
+     
   },
   
 ].map((b) => ({ ...b, buildUrl: b.buildUrl || ((i) => buildUrl(b.slug, i)) }));
