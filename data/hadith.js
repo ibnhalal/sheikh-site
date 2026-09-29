@@ -36,12 +36,7 @@ export const hadithBooks = [
       `${String(i).padStart(2, "0")} مصطلح الحديث لابن عثيمين.mp3`
     )}`,
   },
-  {
-    slug: "nawawi",
-    title: { ar: "الأربعون النووية", en: "The Forty Hadith", am: "አርበዑን አል-ነወዊያ" },
-    author: { ar: "الإمام النووي", en: "Imam al-Nawawi", am: "ኢማም አል-ነወዊ" },
-    total: 5,
-  },
+  
 ].map((b) => ({ ...b, buildUrl: b.buildUrl || ((i) => buildUrl(b.slug, i)) }));
 export function getHadithBook(slug) {
   return hadithBooks.find((b) => b.slug === slug);
