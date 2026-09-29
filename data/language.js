@@ -53,7 +53,7 @@ export const languageBooks = [
     pdfUrl: "/pdf/language-ajrumiya.pdf",
     total: 24,
     buildUrl: (i) =>
-      https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Ajrum/M${i}.mp3,
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Ajrum/M${i}.mp3`,
   },
 ].map((b) => ({
   ...b,
