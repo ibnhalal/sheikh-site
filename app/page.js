@@ -258,8 +258,8 @@ export default function HomePage() {
           {lang === "ar"
             ? "جميع الحقوق محفوظة © 2026 | المنصة العلمية لفضيلة الشيخ محمد زين بن آدم"
             : lang === "en"
-            ? "All Rights Reserved © 2026 | Scientific Platform of Sheikh Mohammed Zayn bin Adam"
-            : "መብቱ በህግ የተጠበቀ ነው © 2026 | የሸይኽ መሐመድ ዘይን ቢን አደም መድረክ"}
+            ? "All Rights Reserved © 2026 | Scientific Platform of Sheikh Muhammedzain Adam"
+            : "መብቱ በህግ የተጠበቀ ነው © 2026 | የሸይኽ   ሙሀመድዘይን አደም መድረክ"}
         </p>
       </footer>
     </div>
