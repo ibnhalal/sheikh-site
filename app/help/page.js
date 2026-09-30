@@ -7,7 +7,7 @@ import LangSwitcher from "@/components/LangSwitcher";
 
 const text = {
   ar: {
-  mainTitle: "أسئلة واستفسارات الموقع",
+  mainTitle: "الإبلاغ عن الأخطاء ",
   subTitle: "نرحب بجميع استفساراتك",
   labelMsg: "الرسالة أو الاستفسار:",
   phMsg: "اكتب سؤالك أو اقتراحك هنا...",
@@ -15,34 +15,34 @@ const text = {
   btnTg: "تيليجرام",
   btnMail: "إيميل",
   backLink: "العودة للموقع الرئيسي",
-  alertFill: "يرجى ملء الاسم والرسالة أولاً",
+  alertFill: "يرجى ملء الرسالة أولاً",
 },
   en: {
-    mainTitle: "Questions & Suggestions",
-    subTitle: "write your inquiries and suggestions",
-    labelMsg: "Message or Inquiry:",
-    phMsg: "Write your question or suggestion here...",
+    mainTitle: "Error Reporting",
+    subTitle: "write your Issue Description",
+    labelMsg: "Bug Description:",
+    phMsg: "Write your Issue Description here...",
     chooseMethod: "Choose your preferred sending method:",
     btnTg: "Telegram",
     btnMail: "Email",
     backLink: "Back to Main Website",
-    alertFill: "Please fill in your name and message first",
+    alertFill: "Please fill  your message first",
   },
   am: {
-    mainTitle: "የጥያቄዎች እና አስተያየቶች ክፍል",
-    subTitle: "ጥያቄዎችዎን እና አስተያየቶችዎን",
-    labelMsg: "መልእክት ወይም ጥያቄ:",
-    phMsg: "ጥያቄዎን ወይም አስተያየትዎን እዚህ ይጻፉ...",
+    mainTitle: "የ ስህተቶች ሪፖርት ማድረጊያ ክፍል",
+    subTitle: "ስህተቶች",
+    labelMsg: "ስህተቶች:",
+    phMsg: "የስህተቶችን ሪፖርት እዚህ ይጻፉ...",
     chooseMethod: "የሚፈልጉትን የመላኪያ ዘዴ ይምረጡ:",
     btnTg: "ቴሌግራም",
     btnMail: "ኢሜይል",
     backLink: "ወደ ዋናው ድህረ ገጽ ተመለስ",
-    alertFill: "እባክዎ ስምዎን እና መልእክትዎን ይሙሉ",
+    alertFill: "እባክዎ መልእክትዎን ይሙሉ",
   },
 };
 
 const TELEGRAM_USERNAME = "sahar1431";
-const CONTACT_EMAIL = "amalbaniy1419@gmail.com";
+const CONTACT_EMAIL = "ibnhalal1413@gmail.com";
 
 export default function HelpPage() {
   const { lang } = useLanguage();
@@ -60,7 +60,7 @@ export default function HelpPage() {
 
   const sendTelegram = () => {
     if (!validate()) return;
-    const body = `السلام عليكم، أنا ${name}\n\nالرسالة:\n${message}`;
+    const body = `السلام عليكم،  ${name}\n\nالرسالة:\n${message}`;
     window.open(
       `https://t.me/${TELEGRAM_USERNAME}?text=${encodeURIComponent(body)}`,
       "_blank"
