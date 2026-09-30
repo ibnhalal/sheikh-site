@@ -8,7 +8,7 @@ import LangSwitcher from "@/components/LangSwitcher";
 const text = {
   ar: {
   mainTitle: "الإبلاغ عن الأخطاء ",
-  subTitle: "نرحب بجميع استفساراتك",
+  subTitle: " جميع الأخطاء",
   labelMsg: " إبلاغ عن الأخطاء  :",
   phMsg: "اكتب الأخطاء هنا...",
   chooseMethod: "اختر طريقة الإرسال المناسبة لك:",
