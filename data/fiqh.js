@@ -21,16 +21,8 @@ export const fiqhBooks = [
       am: "ሸይኽ አል-ወሳቢ",
     },
     total: 9,
-
-      total: 9,
-
-    buildUrl: (i) => {
-      const padded = String(i).padStart(2, "0");
-
-      return `https://archive.org/download/04_20260923/${encodeURIComponent(
-        `${padded}-مذكرة في أحكام الصيام.mp3`
-      )}`;
-    },
+buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Siyam/U${i}.mp3`,
   },
 ].map((b) => ({
   ...b,
