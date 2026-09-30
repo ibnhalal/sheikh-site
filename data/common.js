@@ -2,7 +2,7 @@ export const common = {
   ar: {
     home: "الرئيسية",
     backHome: "الرجوع للرئيسية",
-    rights: "جميع الحقوق محفوظة",
+    rights: "  جميع الحقوق محفوظة لموقع الشخ محمد زين آدم  © ",
     rightsFull: "   جميع الحقوق محفوظة لموقع الشخ محمد زين آدم  © 2026 ",
     tgTitle: "قناة الدروس العلمية",
     tgSub: "المصدر الرسمي للدروس الصوتية",
@@ -20,7 +20,7 @@ export const common = {
   en: {
     home: "Home",
     backHome: "Back to Home",
-    rights: "All rights reserved to the website of Muhammedzain Adam 2026.",
+    rights: "All rights reserved to the website of Muhammedzain Adam .",
     rightsFull: "All rights reserved to the website of Muhammedzain Adam© 2026.",
     tgTitle: "Official Lessons Channel",
     tgSub: "Official source for audio lessons",
@@ -38,7 +38,7 @@ export const common = {
   am: {
     home: "ዋና ገጽ",
     backHome: "ወደ ዋና ገጽ ተመለስ",
-    rights: "መብቱ በሸይኽ ሙሀመድዘይን አደም ድህረ ገጽ የተጠበቀ ነው።  2026",
+    rights: "መብቱ በሸይኽ ሙሀመድዘይን አደም ድህረ ገጽ የተጠበቀ ነው። ",
     rightsFull: "መብቱ በሸይኽ ሙሀመድዘይን አደም ድህረ ገጽ የተጠበቀ ነው። © 2026",
     tgTitle: "ይፋዊ የትምህርት ቻናል",
     tgSub: "የድምጽ ትምህርቶች ይፋዊ ምንጭ",
