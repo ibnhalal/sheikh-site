@@ -22,7 +22,7 @@ export const hadithBooks = [
     slug: "bulugh",
     title: { ar: "بلوغ المرام", en: "Bulugh al-Maram", am: "ቡሉጉል መራም" },
     author: { ar: "الحافظ ابن حجر العسقلاني", en: "Ibn Hajar al-Asqalani", am: "ኢብኑ ሀጀር" },
-    total: 292,
+    total: 291,
 buildUrl: (i) =>
       `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Bulug/P${i}.mp3`,
   },
