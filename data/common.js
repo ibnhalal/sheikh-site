@@ -20,8 +20,8 @@ export const common = {
   en: {
     home: "Home",
     backHome: "Back to Home",
-    rights: "All rights reserved to the website of Muhammedzain Adam .",
-    rightsFull: "All rights reserved to the website of Muhammedzain Adam© 2026.",
+    rights: "All rights reserved to the website of Muhammedzain Adam.",
+    rightsFull: "All rights reserved to the website of Muhammedzain Adam © 2026.",
     tgTitle: "Official Lessons Channel",
     tgSub: "Official source for audio lessons",
     tgJoin: "Join",
@@ -30,8 +30,7 @@ export const common = {
     viewLessons: "View Lessons ←",
     downloadPdf: "Download Book PDF",
     comingSoonTitle: "Coming Soon, Insha'Allah",
-    comingSoonDesc:
-      "This lesson is currently under review and preparation, and will be uploaded soon, God willing.",
+    comingSoonDesc: "This lesson is currently under review and preparation, and will be uploaded soon, God willing.",
     comingSoonBack: "Back to Lessons",
     author: "Author",
   },
