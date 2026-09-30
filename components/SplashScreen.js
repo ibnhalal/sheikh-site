@@ -48,8 +48,8 @@ export default function SplashScreen() {
           {lang === "ar"
             ? "الشيخ محمد زين بن آدم"
             : lang === "en"
-            ? "Sheikh Mohammed Zayn bin Adam"
-            : "ሸይኽ መሐመድ ዘይን ቢን አደም"}
+            ? "Sheikh  Muhammedzain Adam"
+            : "ሸይኽ ሙሀመድዘይን አደም"}
         </span>
         <span className="font-amiri text-lg opacity-80">
           {lang === "ar"
