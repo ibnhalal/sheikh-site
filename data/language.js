@@ -25,6 +25,9 @@ export const languageBooks = [
     },
     author: { ar: "عبد الله بن أحمد الفقيه", en: "Abdullah Al-Faqih", am: "አብዱላህ አል-ፈቂህ" },
     total: 82,
+buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Niqab/O${i}.mp3`,
+  },
   },
   {
     slug: "fawakih",
