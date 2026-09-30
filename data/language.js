@@ -35,6 +35,8 @@ export const languageBooks = [
     },
     author: { ar: "عبد الله بن أحمد الفقيه", en: "Abdullah Al-Faqih", am: "አብዱላህ አል-ፈቂህ" },
     total: 152,
+buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Fewakih/S${i}.mp3`,
   },
   {
     slug: "aqeel",
