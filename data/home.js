@@ -49,9 +49,9 @@ export const categories = [
     icon: "fa-solid fa-book-quran",
     title: { ar: "قسم التفسير", en: "Tafsir Section", am: "የተፍሲር ክፍል" },
     desc: {
-      ar: "تفسير القرآن الكريم وعلوم نزوله وتدبر آياته والقواعد الحسان.",
+      ar: "تفسير القرآن الكريم وعلوم نزوله    .",
       en: "Interpretation of the Noble Qur'an, sciences of revelation and Al-Qawa'id Al-Hisan.",
-      am: "የቁርዓን ትርጓሜ፣ የወረደባቸው ሳይንሶች እና ማብራሪያ።",
+      am: "የቁርዓን ትርጓሜ፣  ትምህርት እና ማብራሪያ።",
     },
   },
   {
@@ -67,11 +67,11 @@ export const categories = [
   {
     href: "/fiqh",
     icon: "fa-solid fa-scale-balanced",
-    title: { ar: "قسم الفقه وأصوله", en: "Fiqh & Jurisprudence", am: "የፊቅህ ክፍል" },
+    title: { ar: "قسم الفقه ", en: "Fiqh ", am: "የፊቅህ ክፍል" },
     desc: {
-      ar: "شرح الأحكام الشرعية العملية في العبادات، المعاملات، والنوازل.",
-      en: "Explanation of Islamic practical rulings on worship, dealings, and modern matters.",
-      am: "በአምልኮና በዕለታዊ ግንኙነቶች ዙሪያ ተግባራዊ ማብራሪያዎች።",
+      ar: "شرح الأحكام الشرعية العملية في العبادات، ، .",
+      en: "Explanation of Islamic practical rulings on worship,  .",
+      am: "   የፊቅህ  ።",
     },
   },
   {
