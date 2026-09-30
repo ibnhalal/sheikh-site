@@ -38,15 +38,8 @@ export const seerahBooks = [
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
     },
     total: 108,
-    // pdfUrl: "/pdf/seerah-raheeq.pdf", // ⚠️ معطّل مؤقتاً: الملف غير موجود في public/pdf
-    numbering: "padded2",
-    // ⚠️ عدّل معرّف الأرشيف (الـ Item identifier) واسم الملف ليطابقا
-    // بالضبط ما رفعته على archive.org، بنفس الطريقة التي فعلناها في
-    // aqeedah.js / language.js
     buildUrl: (i) =>
-      `https://archive.org/download/REPLACE_WITH_YOUR_ITEM_ID/${encodeURIComponent(
-        `${String(i).padStart(2, "0")} الرحيق المختوم.mp3`
-      )}`,
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Rehiq/R${i}.mp3`,
   },
   {
     slug: "daaim",
