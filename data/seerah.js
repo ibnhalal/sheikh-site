@@ -37,7 +37,7 @@ export const seerahBooks = [
       en: "Audio lectures explaining Ar-Raheeq Al-Makhtum by Sheikh Mohammed Zayn.",
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
     },
-    total: 108,
+    total: 107,
     buildUrl: (i) =>
       `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Rehiq/R${i}.mp3`,
   },
