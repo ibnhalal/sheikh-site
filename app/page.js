@@ -258,7 +258,7 @@ export default function HomePage() {
           {lang === "ar"
             ? "  جميع الحقوق محفوظة لموقع الشخ محمد زين آدم  © 2026  "
             : lang === "en"
-            ? "All rights reserved to the website of Muhammedzain Adam© 2026."
+            ? "All rights reserved to the website of Sheikh Muhammedzain Adam© 2026."
             : "መብቱ በሸይኽ ሙሀመድዘይን አደም ድህረ ገጽ የተጠበቀ ነው። © 2026"}
         </p>
       </footer>
