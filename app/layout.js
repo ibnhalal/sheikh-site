@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/context/ThemeContext";
 import SplashScreen from "@/components/SplashScreen";
 
 export const metadata = {
-  title: "الموقع الرسمي لفضيلة الشيخ محمد زين بن آدم",
+  title: "موقع لفضيلة الشيخ محمد زين بن آدم",
   description:
     "المنصة العلمية الشاملة لنشر الشروحات، الدروس والمحاضرات المبنية على الكتاب والسنة بفهم سلف الأمة في شتى العلوم الشرعية واللغوية.",
 };
