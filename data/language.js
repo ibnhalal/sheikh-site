@@ -14,8 +14,8 @@ export const languageBooks = [
     author: { ar: "الإمام الحريري", en: "Imam Al-Hariri", am: "ኢማም አል-ሀሪሪ" },
     total: 72,
       buildUrl: (i) =>
-    `https://archive.org/download/mulha-49_20260922/a/${encodeURIComponent(`mulha (${i}).mp3`)}`,
-},
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Mulha/N${i}.mp3`,
+  },
   {
     slug: "niqab",
     title: {
