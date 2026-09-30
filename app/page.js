@@ -256,10 +256,10 @@ export default function HomePage() {
         </a>
         <p className="text-sm">
           {lang === "ar"
-            ? "جميع الحقوق محفوظة © 2026 | المنصة العلمية لفضيلة الشيخ محمد زين بن آدم"
+            ? "  جميع الحقوق محفوظة لموقع الشخ محمد زين آدم  © 2026  "
             : lang === "en"
-            ? "All Rights Reserved © 2026 | Scientific Platform of Sheikh Muhammedzain Adam"
-            : "መብቱ በህግ የተጠበቀ ነው © 2026 | የሸይኽ   ሙሀመድዘይን አደም መድረክ"}
+            ? "All rights reserved to the website of Muhammedzain Adam© 2026."
+            : "መብቱ በሸይኽ ሙሀመድዘይን አደም ድህረ ገጽ የተጠበቀ ነው። © 2026"}
         </p>
       </footer>
     </div>
