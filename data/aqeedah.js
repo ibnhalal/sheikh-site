@@ -202,6 +202,40 @@ export const aqeedahBooks = [
     buildUrl: (i) =>
       `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Feth/K${i}.mp3`,
   },
+{
+    slug: "ubudiyyah",
+    title: {
+      ar: "العبودية",
+      en: "Al-Ubudiyyah",
+      am: "አል-ዑቡዲያ",
+    },
+    author: {
+      ar: "شيخ الإسلام ابن تيمية",
+      en: "Ibn Taymiyyah",
+      am: "ኢብኑ ተይሚያ",
+    },
+    fullTitle: {
+      ar: "شرح كتاب العبودية",
+      en: "Explanation of Al-Ubudiyyah",
+      am: "የአል-ዑቡዲያ ማብራሪያ",
+    },
+    authorSub: {
+      ar: "تأليف شيخ الإسلام ابن تيمية رحمه الله - شروحات فضيلة الشيخ محمد زين",
+      en: "By Shaykh al-Islam Ibn Taymiyyah - Lectures by Sheikh Mohammed Zayn",
+      am: "በሸይኽ ኢብኑ ተይሚያ - በሸይኽ መሐመድ ዘይን የተሰጠ ትምህርት",
+    },
+    footerDesc: {
+      ar: "شروحات كتاب العبودية لشيخ الإسلام ابن تيمية لفضيلة الشيخ محمد زين بن آدم بصيغة مسموعة ومباشرة.",
+      en: "Audio lectures explaining Al-Ubudiyyah by Sheikh Mohammed Zayn.",
+      am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
+    },
+    total: 0, // ← غيّره إلى عدد الدروس الحقيقي
+    buildUrl: (i) =>
+      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Ubudiya/J${i}.mp3`, 
+  },
+
+
+
 ];
 
 export function getAqeedahBook(slug) {
