@@ -229,7 +229,7 @@ export const aqeedahBooks = [
       en: "Audio lectures explaining Al-Ubudiyyah by Sheikh Mohammed Zayn.",
       am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
     },
-    total: 0, // ← غيّره إلى عدد الدروس الحقيقي
+    total: 37, 
     buildUrl: (i) =>
       `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Ubudiya/J${i}.mp3`, 
   },
