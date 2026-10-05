@@ -155,9 +155,9 @@ export const readingNow = [
     title: { ar: "رياض الصالحين", en: "Riyad as-Salihin", am: "ሪያዱ አስ-ሷሊሂን" },
     author: { ar: "الإمام النووي", en: "Imam al-Nawawi", am: "ኢማም አል-ነወዊ" },
      desc: {
-      ar: "بعدالفجر",
-      en: "after Fajr",
-      am: "ከፈጅር በዉሀላ",
+      ar: "بعد المغرب",
+      en: "after megrib",
+      am: "ከመግሪብ በዉሀላ",
     },
   },
 ];
