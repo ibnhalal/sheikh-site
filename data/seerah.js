@@ -41,37 +41,7 @@ export const seerahBooks = [
     buildUrl: (i) =>
       `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Rehiq/R${i}.mp3`,
   },
-  {
-    slug: "daaim",
-    title: {
-      ar: "دعائم منهاج النبوة",
-      en: "Da'aim Minhaj An-Nubuwwah",
-      am: "ደዓኢም ሚንሃጅ አን-ኑቡውዋ",
-    },
-    author: {
-      ar: "محمد بن سعيد رسلان",
-      en: "Muhammad bin Sa'eed Raslan",
-      am: "ሙሐመድ ቢን ሰዒድ ረስላን",
-    },
-    fullTitle: {
-      ar: "شرح دعائم منهاج النبوة",
-      en: "Explanation of Da'aim Minhaj An-Nubuwwah",
-      am: "የደዓኢም ሚንሃጅ አን-ኑቡውዋ ማብራሪያ",
-    },
-    authorSub: {
-      ar: "تأليف الشيخ محمد بن سعيد رسلان - شروحات فضيلة الشيخ محمد زين",
-      en: "By Sheikh Muhammad bin Sa'eed Raslan - Lectures by Sheikh Mohammed Zayn",
-      am: "በሸይኽ ሙሐመድ ቢን ሰዒድ ረስላን - በሸይኽ መሐመድ ዘይን የተሰጠ ትምህርት",
-    },
-    footerDesc: {
-      ar: "شروحات كتاب دعائم منهاج النبوة لفضيلة الشيخ محمد زين بن آدم بصيغ مسموعة ومباشرة.",
-      en: "Audio lectures explaining Da'aim Minhaj An-Nubuwwah by Sheikh Mohammed Zayn.",
-      am: "በሸይኽ መሐመድ ዘይን የተሰጡ ትምህርቶች በድምጽ",
-    },
-    total: 118,
-    buildUrl: (i) =>
-      `https://pub-41caed108cf6475d88c57e8fe2200972.r2.dev/Deaem/T${i}.mp3`,
-  },
+  
 ];
 
 export function getSeerahBook(slug) {
