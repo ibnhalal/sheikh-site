@@ -14,7 +14,7 @@ export default function CategoryBookList({ books, basePath, color, variant = "gr
         {books.map((book) => (
           <Link
             key={book.slug}
-            href={`${basePath}/${book.slug}`}
+            href={basePath + "/" + book.slug}
             className="rounded-[20px] border p-6 flex flex-col justify-between no-underline"
             style={{
               background: "var(--bg-surface)",
@@ -38,7 +38,7 @@ export default function CategoryBookList({ books, basePath, color, variant = "gr
               <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>
                 {book.comingSoon
                   ? t.comingSoonTitle
-                  : `${book.total} ${t.lessonsCount}`}
+                  : book.total + " " + t.lessonsCount}
               </span>
               <span>{t.viewLessons}</span>
             </div>
@@ -53,7 +53,7 @@ export default function CategoryBookList({ books, basePath, color, variant = "gr
       {books.map((book) => (
         <Link
           key={book.slug}
-        href={${basePath}/${book.slug}}
+          href={basePath + "/" + book.slug}
           className="flex items-center justify-between rounded-[20px] border p-5 mb-4 no-underline"
           style={{
             background: "var(--bg-surface)",
