@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@100..900&family=Tajawal:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@100..900&family=Tajawal:wght@400;500;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,19 +9,19 @@
   --bg-surface: #ffffff;
   --primary: #0d9488;
   --primary-hover: #0b7c72;
-  --text-main: #000000;
-  --text-dim: #000000;
+  --text-main: #0f172a;
+  --text-dim: #64748b;
   --border: #e6e9f1;
   --shadow: 0 10px 30px rgba(13, 148, 136, 0.06);
   --tg-blue: #0088cc;
 }
 
 .dark {
-  --bg-body: #000000;
-  --bg-surface: #0a0a0a;
-  --text-main: #ffffff;
-  --text-dim: #ffffff;
-  --border: #222222;
+  --bg-body: #090d16;
+  --bg-surface: #101624;
+  --text-main: #f8fafc;
+  --text-dim: #a1a7bc;
+  --border: #232d3f;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
@@ -37,13 +37,13 @@ html, body {
 body {
   background: var(--bg-body);
   color: var(--text-main);
-  font-family: 'IBM Plex Sans Arabic', 'Noto Kufi Arabic', sans-serif;
+  font-family: 'Noto Kufi Arabic', sans-serif;
   transition: background 0.3s ease, color 0.3s ease;
   overflow-x: hidden;
 }
 
 .font-amiri {
-  font-family: 'IBM Plex Sans Arabic', 'Amiri', sans-serif;
+  font-family: 'Amiri', serif;
 }
 
 audio {
@@ -104,18 +104,3 @@ audio::-webkit-media-controls-panel {
   background: var(--border);
   border-radius: 10px;
 }
-
-/* ===== Strict contrast: all text & icons pure black (day) / pure white (night) ===== */
-html:not(.dark) body *:not(.text-white):not(.text-white *):not(.invert-fill):not(.invert-fill *):not(#splash-screen *) {
-  color: #000000 !important;
-}
-html.dark body *:not(.text-white):not(.text-white *):not(.invert-fill):not(.invert-fill *):not(#splash-screen *) {
-  color: #ffffff !important;
-}
-/* Filled/active buttons: inverted so the label stays readable */
-html:not(.dark) .invert-fill { background: #000000 !important; color: #ffffff !important; border-color: #000000 !important; }
-html.dark .invert-fill { background: #ffffff !important; color: #000000 !important; border-color: #ffffff !important; }
-html:not(.dark) .invert-fill * { color: #ffffff !important; }
-html.dark .invert-fill * { color: #000000 !important; }
-html:not(.dark) ::placeholder { color: #000000 !important; opacity: .6; }
-html.dark ::placeholder { color: #ffffff !important; opacity: .6; }
