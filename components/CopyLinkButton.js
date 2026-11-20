@@ -27,7 +27,7 @@ export default function CopyLinkButton({ color }) {
   return (
     <button
       onClick={handleCopy}
-      className={inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border-2 font-bold text-sm transition ${copied ? "invert-fill" : ""}}
+      className={"inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border-2 font-bold text-sm transition" + (copied ? " invert-fill" : "")}
       style={{ borderColor: color, color: copied ? "#fff" : color, background: copied ? color : "transparent" }}
     >
       <i className={copied ? "fa-solid fa-check" : "fa-solid fa-link"} />
