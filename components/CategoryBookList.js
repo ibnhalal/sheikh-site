@@ -38,7 +38,7 @@ export default function CategoryBookList({ books, basePath, color, variant = "gr
               <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>
                 {book.comingSoon
                   ? t.comingSoonTitle
-                  : ${book.total} ${t.lessonsCount}}
+                  : `${book.total} ${t.lessonsCount}`}
               </span>
               <span>{t.viewLessons}</span>
             </div>
