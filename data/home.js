@@ -108,6 +108,17 @@ export const categories = [
 
 // "يُقرأ حالياً" books — link to their real lesson pages
 export const readingNow = [
+  {
+    href: "/last-update/ibnmajah",
+    slug: "ibnmajah",
+    title: { ar: "سنن ابن ماجة", en: "Sunan Ibn Majah", am: "ሱነን ኢብኑ ማጃህ" },
+    author: { ar: "الإمام ابن ماجة", en: "Imam Ibn Majah", am: "ኢማም ኢብኑ ማጃህ" },
+    desc: {
+      ar: " كل سبت وأحد من الساعة ١:٠٠ ص إلى ٨:٠٠ ص بالتوقيت المحلي  ",
+      en: "Every Saturday and Sunday from 1:00 AM to 8:00 AM local time  ",
+      am: "ዘወትር ቅዳሜና እሁድ ጠዋት ከ1:00 - 2:00  ",
+    },
+  },
   // {
   //   href: "/tafseer/osoul",
   //   title: { ar: "تفسير أصول في التفسير", en: "Osoul fee Al-Tafsir", am: "ኡሱል ፊ ተፍሲር" },
@@ -163,6 +174,17 @@ export const readingNow = [
 ];
 
 export const latestAdded = [
+  {
+    href: "/last-update/ibnmajah",
+    slug: "ibnmajah",
+    title: { ar: "سنن ابن ماجة", en: "Sunan Ibn Majah", am: "ሱነን ኢብኑ ማጃህ" },
+    author: { ar: "الإمام ابن ماجة", en: "Imam Ibn Majah", am: "ኢማም ኢብኑ ማጃህ" },
+    desc: {
+      ar: "إضافة تسجيل درس اليوم والصوتيات",
+      en: "Today's lesson recording added",
+      am: "የዛሬው ትምህርት ተጨምሯል",
+    },
+  },
 
   {
     href: "https://t.me/SheikhMuhammedZainAdam/16930",
