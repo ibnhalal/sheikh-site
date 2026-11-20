@@ -27,7 +27,7 @@ export default function ComingSoon({ backHref = "/", color = "#0d9488" }) {
       >
         <div
           className="w-20 h-20 rounded-full flex items-center justify-center text-4xl mx-auto mb-5"
-          style={{ background: `${color}1a`, color }}
+          style={{ background: ${color}1a, color }}
         >
           <i className="fa-solid fa-hourglass-half" />
         </div>
@@ -39,7 +39,7 @@ export default function ComingSoon({ backHref = "/", color = "#0d9488" }) {
         </p>
         <Link
           href={backHref}
-          className="inline-flex items-center gap-2 px-8 py-3 rounded-full text-white font-bold no-underline mb-6"
+          className="inline-flex items-center gap-2 px-8 py-3 rounded-full invert-fill font-bold no-underline mb-6"
           style={{ background: color }}
         >
           <i
