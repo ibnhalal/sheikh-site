@@ -16,13 +16,13 @@ export default function LangSwitcher({ activeColor }) {
         <button
           key={l.code}
           onClick={() => setLang(l.code)}
-          className={px-2.5 py-1 rounded-lg text-xs font-bold border transition-colors ${lang === l.code ? "invert-fill" : ""}}
+          className={"px-2.5 py-1 rounded-lg text-xs font-bold border transition-colors" + (lang === l.code ? " invert-fill" : "")}
           style={
             lang === l.code
               ? {
-                  background: activeColor  "var(--primary)",
+                  background: activeColor || "var(--primary)",
                   color: "#fff",
-                  borderColor: activeColor  "var(--primary)",
+                  borderColor: activeColor || "var(--primary)",
                 }
               : {
                   background: "var(--bg-surface)",
