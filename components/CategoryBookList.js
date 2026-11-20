@@ -14,7 +14,7 @@ export default function CategoryBookList({ books, basePath, color, variant = "gr
         {books.map((book) => (
           <Link
             key={book.slug}
-            href={${basePath}/${book.slug}}
+            href={`${basePath}/${book.slug}`}
             className="rounded-[20px] border p-6 flex flex-col justify-between no-underline"
             style={{
               background: "var(--bg-surface)",
