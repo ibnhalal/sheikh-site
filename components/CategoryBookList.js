@@ -53,7 +53,7 @@ export default function CategoryBookList({ books, basePath, color, variant = "gr
       {books.map((book) => (
         <Link
           key={book.slug}
-        href={`${basePath}/${book.slug}`}
+        href={${basePath}/${book.slug}}
           className="flex items-center justify-between rounded-[20px] border p-5 mb-4 no-underline"
           style={{
             background: "var(--bg-surface)",
